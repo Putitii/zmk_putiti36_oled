@@ -1,0 +1,11 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_PUTITI36_OLED
+
+config ZMK_KEYBOARD_NAME
+    default "putiti36_OLED"
+config ZMK_DISPLAY
+	select LVGL_USE_CONT
+	select LVGL_FONT_MONTSERRAT_26
+endif
