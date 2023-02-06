@@ -1,13 +1,6 @@
-manifest:
-  remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    - name: Putitii
-      url-base: https://github.com/Putitii
-  projects:
-    - name: zmk
-      remote: zmkfirmware
-      revision: main
-      import: app/west.yml
-  self:
-    path: config
+include:
+  - board: nice_nano_v2
+    shield: putiti36_oled
+
+  - board: nice_nano_v2
+    shield: settings_reset
