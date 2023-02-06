@@ -6,3 +6,6 @@ url: https://github.com/Putitii/zmk_putiti36_oled
 requires: [pro_micro]
 features:
   - keys
+  - display
+exposes:
+  - i2c_oled
