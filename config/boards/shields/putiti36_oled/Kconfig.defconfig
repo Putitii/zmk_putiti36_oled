@@ -4,7 +4,7 @@
 if SHIELD_PUTITI36_OLED
 
 config ZMK_KEYBOARD_NAME
-    default "putiti36_OLED"
+    default "chiffre_OLED"
 endif
 
 if ZMK_DISPLAY
