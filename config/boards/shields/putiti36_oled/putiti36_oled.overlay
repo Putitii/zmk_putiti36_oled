@@ -76,11 +76,11 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5) RC(2,6) RC(2,7) RC(2,8) RC(2,9)
 
     };
 };
-
+// Chiffree => scl-pin = <17>; sda-pin = <20>;
 &pro_micro_i2c {
 	status = "okay";
-	scl-pin = <17>;
-	sda-pin = <20>;
+    scl-pin = <20>;
+	sda-pin = <17>;
 	oled: ssd1306@3c {
 		compatible = "solomon,ssd1306fb";
 		reg = <0x3c>;
