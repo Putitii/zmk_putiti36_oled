@@ -51,10 +51,10 @@
 
 		lower_layer {
 			bindings = <
-                &kp ESC    &kp HOME      &kp UP       &kp END       &kp PG_UP               &kp EQUAL   &kp LBRC   &kp RBRC    &trans    &kp DEL    
-                &kp TAB    &kp LEFT      &kp DOWN     &kp RIGHT     &kp PAGE_DOWN           &kp MINUS   &kp LPAR   &kp RPAR    &trans    &trans     
-                &trans     &kp SQT       &kp BSLH     &kp RBKT      &trans                  &kp SQT     &kp LBKT   &kp RBKT    &trans    &sk LSHFT 
-                                         &sk LCTRL    &sk LALT      &td0                    &trans     &trans   &trans 
+                &kp ESC    &kp LG(LEFT)  &kp UP       &kp LG(RIGHT)   &kp PG_UP               &kp EQUAL   &kp LBRC   &kp RBRC    &trans    &kp DEL    
+                &kp TAB    &kp LEFT      &kp DOWN     &kp RIGHT       &kp PAGE_DOWN           &kp MINUS   &kp LPAR   &kp RPAR    &trans    &trans     
+                &trans     &kp SQT       &kp BSLH     &kp RBKT        &trans                  &kp SQT     &kp LBKT   &kp RBKT    &trans    &sk LSHFT 
+                                         &sk LGUI     &sk LALT        &td0                    &trans     &trans   &trans 
                         >; 
                 };
 
@@ -79,8 +79,8 @@
                 layer_4 {
 			bindings = <
                 &bt BT_CLR  &sk LALT    &sk LCTRL   &sk LSHFT   &bt BT_NXT         &trans    &trans      &trans      &bootloader   &reset  
-                &kp LC(A)   &kp LC(S)   &kp LC(D)   &kp LC(F)   &kp LC(G)          &trans    &kp C_PP    &trans      &trans        &trans      
-                &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp LC(V)   &kp LC(B)          &trans    &kp C_PREV  &kp C_NEXT  &trans        &kp LC(FSLH)
+                &kp LG(A)   &kp LG(S)   &kp LG(D)   &kp LG(F)   &kp LG(G)          &trans    &kp C_PP    &trans      &trans        &trans      
+                &kp LG(Z)   &kp LG(X)   &kp LG(C)   &kp LG(V)   &kp LG(B)          &trans    &kp C_PREV  &kp C_NEXT  &trans        &kp LG(FSLH)
                                                   &trans   &trans  &trans          &trans   &mo 3    &trans
                         >;
                 };
