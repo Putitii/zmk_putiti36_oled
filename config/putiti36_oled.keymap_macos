@@ -78,7 +78,7 @@
 
                 layer_4 {
 			bindings = <
-                &bt BT_CLR  &sk LALT    &sk LCTRL   &sk LSHFT   &bt BT_NXT         &trans    &trans      &trans      &bootloader   &reset  
+                &bt BT_CLR  &sk LALT    &sk LCTRL   &sk LSHFT   &bt BT_NXT         &trans    &trans      &trans      &bootloader   &sys_reset  
                 &kp LG(A)   &kp LG(S)   &kp LG(D)   &kp LG(F)   &kp LG(G)          &trans    &kp C_PP    &trans      &trans        &trans      
                 &kp LG(Z)   &kp LG(X)   &kp LG(C)   &kp LG(V)   &kp LG(B)          &trans    &kp C_PREV  &kp C_NEXT  &trans        &kp LG(FSLH)
                                                   &trans   &trans  &trans          &trans   &mo 3    &trans
