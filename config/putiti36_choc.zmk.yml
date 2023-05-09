@@ -2,10 +2,7 @@ file_format: "1"
 id: reviung41
 name: REVIUNG41
 type: shield
-url: https://github.com/Putitii/zmk_putiti36_oled
+url: https://github.com/Putitii/zmk_putiti36_choc
 requires: [pro_micro]
 features:
   - keys
-  - display
-exposes:
-  - i2c_oled
